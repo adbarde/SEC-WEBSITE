@@ -1,0 +1,112 @@
+<html>
+<head>
+    <title>modal 2</title>
+    <link rel="stylesheet" href="aug.css" />
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/bootstrap.bundle.min.js"></script>
+  
+</head>
+<body>
+  <div class="container">
+    <h1>Sportspersons</h1>
+    <div class="row">
+      <div class="col-sm-6">
+        <h2>Cricketers</h2>
+        <table class="table table-bordered table-hover">
+          <thead><tr><th>Name</th><th>City</th><th></th></tr></thead>
+          <tbody>
+            <tr><td>Virat Kohli</td><th>Delhi</th>
+            <td><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#virat">View</button></td>
+          </tr>
+          <tr><td>M. S. Dhoni</td><td>Jamshedpur</td>
+          <td><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#dhoni">View</button></td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="col-sm-6">
+        <h2>Athletics</h2>
+        <table class="table table-bordered table-hover">
+          <thead><tr><th>Name</th><th>City</th></tr><th></th></thead>
+          <tbody>
+            <tr><td>Neeraj Chopra</td><td>Panipat</td>
+            <td><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#neeraj">View</button></td>
+            </tr>
+            <tr><td>Milkha Singh</td><td>Chandigarh</td>
+              <td><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#milkha">View</button></td>
+              </tr>
+          </tbody>
+        </table>
+
+      </div>
+    </div>
+    </div>
+
+    <div class="modal" id="virat">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Virat Kohli</h4>
+          </div>
+          <div class="modal-body">
+            Modal body...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="dhoni">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">M. S. Dhoni</h4>
+          </div>
+          <div class="modal-body">
+            Modal body...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="neeraj">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Neeraj chopra</h4>
+          </div>
+          <div class="modal-body">
+            Modal body...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="milkha">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Milkha Singh</h4>
+          </div>
+          <div class="modal-body">
+            Modal body...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+
+</html>
